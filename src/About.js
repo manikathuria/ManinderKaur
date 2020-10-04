@@ -59,7 +59,7 @@ function About() {
                                 <br></br>
                                 {/* <span className="my_titles_about">EDUCATION</span> */}
                                 <h2>EDUCATION</h2><br></br>
-                                <hr style={{borderTop:"#fff 2px solid"}}></hr><br></br>
+                                <hr style={{ borderTop: "#fff 2px solid" }}></hr><br></br>
                                 <h3>B.Sc.(Hons.) Computer Science</h3><br></br>
                                 Pursuing B.Sc.(H) Computer Science from <br></br>
                                 S.G.T.B. Khalsa College<br></br>
@@ -77,54 +77,31 @@ function About() {
                                 <Skills />
 
                                 <h2>PROJECTS</h2><br></br>
-                                <hr style={{borderTop:"#fff 2px solid"}}></hr><br></br>
+                                <hr style={{ borderTop: "#fff 2px solid" }}></hr><br></br>
                                 <h3>FULL STACK PROJECT</h3><br></br><br></br>
                                      Instagram clone using MERN Stack<br></br>
                                      Air Ticket Reservation System using PHP and Bootstrap<br></br><br></br>
                                 <h3>FRONT END PROJECT</h3><br></br>
                                   HULU clone using ReactJS<br></br>
-                            <br></br>
-                            <hr></hr>
+                                <br></br>
+                                <hr></hr>
                             </div>
+
                             <br></br>
+                        </div>
+                        <div className="scroll_info">
+                            <p>Click above and press down key
+                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4
+                                             4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                                </svg>
+                                
+                            to scroll</p>
                         </div>
                     </td>
 
                 </tr>
-
-                {/* SKILLS */}
-
-                {/* <tr data-aos="slide-right" >
-
-                    <td className="left_side_skills">
-                        <div className="header_skills">
-                            SKILLS
-                    </div>
-                    </td>
-                    <td className="right_side_skills">
-
-                        <div className="my_skills">
-
-                            C++<br />
-                             Java<br />
-                            Javascript<br />
-                            PHP<br />
-                            <span>Front End devolopment : <br /></span>
-                            (HTML , CSS , Bootstrap , Reactjs)<br />
-                            <span>Back End devolopment:<br /></span>
-                            (NodeJs , ExpressJs , PHP)<br />
-                            <span>Databases:<br /></span>
-                            (SQL , MongoDB)<br />
-                            Android App Devolopment<br />
-                            Microsoft Word / Excel / Powerpoint<br />
-                            Possess Leadership Qualities
-
-                        </div>
-
-
-                    </td>
-
-                </tr> */}
 
                 {/* INTERESTS */}
                 <tr data-aos="fade-up">
@@ -153,11 +130,21 @@ function About() {
                                 <h2>READING</h2>
                                 <img src={newsImg}  ></img>
                             </div>
+
+                        </div>
+                        <div className="scroll_info">
+                            <p>Click above and press
+                                 <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down" fill="currentColor"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4
+                                             4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                                </svg>
+                            key to scroll</p>
                         </div>
                     </td>
                 </tr>
                 {/* CONTACTS */}
-               
+
             </table>
 
         </div>
